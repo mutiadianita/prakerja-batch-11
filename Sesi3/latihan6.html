@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        #main {
+            display: flex;
+            flex-direction: row;
+        }
+        #section-kiri {
+            flex: 1;
+            background-color: blue;
+        }
+        #section-kanan {
+            flex:2;
+            background-color: green;
+        }
+        @media (max-width: 567px) {
+            #main {
+                flex-direction: column;
+            }
+            #section-kiri {
+                background-color: red;
+            }
+            #section-kanan {
+                background-color: purple;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="section-kiri">
+            Kiri Kiri Kiri Kiri Kiri
+        </div>
+        <div id="section-kanan">
+            Kanan Kanan Kanan Kanan Kanan
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Placement</title>
+    <!-- INTERNAL CSS  -->
+    <style>
+        /* Selector Element */
+        h1 {
+            color: white;
+        }
+        h2 {
+            color: green;
+            background-color: grey;
+        }
+        /* Selector ID */
+        #paragraf {
+            color: orange;
+        }
+        /* Selector Class */
+        .bg-beige {
+            background-color: beige;
+        }
+    </style>
+
+    <!-- EXTERNAL CSS  -->
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <!-- Ini adalah comment di HTML -->
+    <!-- INLINE CSS -->
+    <h1 style="color: red;
+    background-color: blue;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;">Judul 1</h1>
+
+    <h1 style="color: red;
+    background-color: blue;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;">Judul 2</h1>
+
+    <!-- INTERNAL CSS -->
+    <h2 class="bg-beige">Sub Judul</h2>
+    <p class="bg-beige">Paragraf 1</p>
+    <p id="paragraf" class="bg-beige">Paragraf 2</p>
+
+    <div id="teks">Teks</div>
+</body>
+</html>
